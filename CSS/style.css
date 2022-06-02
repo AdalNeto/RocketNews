@@ -1,0 +1,114 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: #121214;
+    font-family: 'League Spartan', sans-serif;
+}
+.newsletter{
+    display: flex;  
+}
+
+main{
+    width: 50%;
+    color: #E1E1E6; 
+    margin-left: 25px;
+}
+
+header > img{
+    height: 15vh;
+    max-width: 100%;
+    margin: 40px 0 80px ;
+}
+
+h1{
+    color: #04D361;
+    font-size: 30px;
+    margin: 40px 0 0;
+}
+
+h4{
+    margin-top: 8px;
+}
+
+.text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+h1{
+    color: #04D361;
+    font-size: 30px;
+    margin: 40px 0 0;
+}
+
+aside {
+    background-image: url('./assets/read_news.jpg');
+    height: 100vh;
+    width: 50%;
+    margin: 0;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+form{
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.emailDiv{
+    display:flex;
+    margin-top: .3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.greenSquare{
+    margin-top: 1rem;
+    background-color: #04D361;
+    width: 6px;
+    height: 52px;
+}
+
+.emailDiv>input[type=email]{
+    margin: 1rem 0 0;
+    width: 90%;
+    height: 50px;
+    background-color:#c2c2c2;
+    border:none;   
+}
+
+.emailDiv>button{
+    margin-top: 1rem;
+    height: 52px;
+    width: 52px;
+    line-height: 0;
+    background-color:#8257e5;
+    color: white;
+    border:none;
+    cursor: pointer;    
+}
+
+a{
+    text-decoration: none;
+    margin-top: 4rem;
+    display:flex;
+    color: #8257e5;
+    align-items: center;
+    line-height: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.filterPurple{
+    filter: invert(35%) sepia(96%) saturate(517%) hue-rotate(219deg) brightness(99%) contrast(98%);
+}
+
+.filterWhite{
+    filter: invert(79%) sepia(100%) saturate(38%) hue-rotate(75deg) brightness(110%) contrast(110%);
+}

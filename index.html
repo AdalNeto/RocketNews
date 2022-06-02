@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketNews</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./CSS/assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="newsletter">
+        <main>
+            <header>
+                <img alt="Logo RocketNews" src="./CSS/assets/logo.svg"> 
+            </header>
+            <h1>atualize ideias e informações em 5 minutos.</h1>
+            <h4>tudo que você precisa para começar seu dia bem informado</h4>
+           <section class="text">
+                <p>notícias sobre o universo Rocketseat, e tudo que você precisa para começar o dia melhor</p>
+                <p>perfeito para se preparar para codar</p>
+            </section>  
+            
+            <form action="/emails.php" method="get">
+                <label for="email">Insira seu e-mail:</label>
+                <div class="emailDiv">
+                    <div class="greenSquare"></div>
+                    <input type="email" id="email" name="email" placeholder="   email@rocketseat.com.br" autofocus>
+                    <button type="button">
+                        <img src="./CSS/assets/send.svg" alt="send button image" class="filterWhite">
+                    </button>
+                </div>
+            </form>
+
+           <a href="">deixe-me ler primeiro <img src="./CSS/assets/arrow-right.svg" alt="arrow-right" class="filterPurple"></a>              
+        </main>
+        <aside></aside>
+        
+    </div>
+</body>
+</html>
